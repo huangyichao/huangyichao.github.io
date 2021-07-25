@@ -1,9 +1,8 @@
 ---
 layout: page
-title: "About"
+title: "关于"
 description: "关于个人博客"
-header-img: "img/post-bg-miui6.jpg
-"
+header-img: "img/post-bg-miui6.jpg"
 ---
 
 <!-- Language Selector -->
@@ -17,11 +16,11 @@ header-img: "img/post-bg-miui6.jpg
 
     <!--copied from markdown -->
     <blockquote><p>居天下之广居，立天下之正位，行天下之大道。得志，与民由之；不得志，独行其道。富贵不能淫，贫贱不能移，威武不能屈。<br>
-    微斯人，吾谁与归？/p></blockquote>
+    微斯人，吾谁与归？</p></blockquote>
 
-    <p>本网站为<strong>Huang Yichao</strong>的博客，期待在这里分享我的读书，写作，技术，杂谈。才疏学浅，但确期待能有更多地学习、分享，与网友共勉。</p>
+    <p>本网站为<strong>Huang Yichao</strong>的个人博客，期待在这里分享我的读书，写作，技术，杂谈。</p>
     
-    <p>如果您有什么建议，欢迎提出探讨~</p>
+    <p>如果您有什么建议，欢迎通过邮箱提出与我探讨~</p>
 
     <p></p>
     
@@ -88,10 +87,11 @@ header-img: "img/post-bg-miui6.jpg
     _render();
 </script>
 
+<!-- 评论区功能尚不支持
 
-<!-- Gitalk 评论 start  -->
+<!-- Gitalk 评论 start  ->
 {% if site.gitalk.enable %}
-<!-- Gitalk link  -->
+<!-- Gitalk link  ->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
@@ -109,18 +109,18 @@ header-img: "img/post-bg-miui6.jpg
     gitalk.render('gitalk-container');
 </script>
 {% endif %}
-<!-- Gitalk end -->
+<!-- Gitalk end ->
 
- <!-- disqus 评论框 start  -->
+ <!-- disqus 评论框 start  ->
 {% if site.disqus.enable %}
 
 <div class="comment">
     <div id="disqus_thread" class="disqus-thread">
     </div>
 </div>
-<!-- disqus 评论框 end -->
+<!-- disqus 评论框 end ->
 
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) ->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus.username}}";
@@ -133,6 +133,8 @@ header-img: "img/post-bg-miui6.jpg
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<!-- disqus 公共JS代码 end -->
+<!-- disqus 公共JS代码 end ->
 {% endif %}
+
+-->
 
